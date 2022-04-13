@@ -1,35 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">        
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>Resume</title>
-        
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="./style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Resume</title>
 
-    </head>
-    <body>
-        <main class="main-content" contenteditable="true">
-            <section class="left-section">
-                 <div class="left-content">
-                    <!-- Write code for the left section here -->
-                </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <main class="main-content" contenteditable="true">
+      <section class="left-section">
+        <div class="left-content">
+          <!-- Write code for the left section here -->
+          <div class="profile-details">
+            <div class="profile-image">
+              <img
+                src="data:image/jpeg;base64,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"
+                alt="Profile pic"
+              />
             </div>
-            </section>
+            <p class="name">Hrushikesh Walujkar</p>
+            <p class="designation">MERN Stack Developer</p>
+            <p class="description">
+              I'm Hrushikesh Walujkar. I have learned Java, HTML, CSS,
+              Javascript, ReactJS
+            </p>
+          </div>
+          
+            <div class="contact-item">
+              <div class="icon">
+                <a href="https://www.linkedin.com/feed/" target="-blank">
+                <img src="https://www.kindpng.com/picc/m/363-3632986_logo-linkedin-png-rond-transparent-png.png" alt="Linkedin-logo">
+                </a>
 
-            <section class="right-section"> 
-                <div class="right-main-content">
+
+                <a href="https://github.com/hrushi1509" >
+                    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github">
+                </a>
+
+            </div>
+            <div class="contact">
+              <span><i class="fa fa-envelope-o" aria-hidden="true"></i> &nbsp; walujkar11@gmail.com </span> <br>
+              <span><i class="fa fa-camera-retro fa-lg"></i> &nbsp; 1234567891 </span>
+          </div>
+          <div class="skills">Skills</div>
+
+          <div class="skill-name">
+              <div class="">HTML</div>
+              <div class="progress-bar bar-1"></div>
+              <div class="">CSS</div>
+              <div class="progress-bar bar-2"></div>
+              <div class="">JAVA</div>
+              <div class="progress-bar bar-3"></div>
+
+          </div>
+
+            
+          </div>
+        
+      </section>
+
+      <section class="right-section">
+        <div class="right-main-content">
+          <!-- Write code for the right section here -->
+          <div class="about-me">
                     
-                    <!-- Write code for the right section here -->
-                </div>
-            </section>
-        </main>
-    </body>
-</html> 
+            <h1 class="right-title">About me</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cumque illo ut, ea ipsa, iste, nam sapiente mollitia aut delectus voluptas tempora omnis? Eligendi, expedita. Nulla, aspernatur officiis. Architecto, animi.
+        </div>
+
+        <div class="education">
+            <h1 class="right-title">Education</h1>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum possimus deserunt odit ut id facilis amet in adipisci laborum? Perferendis perspiciatis magnam esse repudiandae quidem autem accusantium quos nemo. Perspiciatis.
+        </div>
+
+        <div class="experience">
+            <h1 class="right-title">Experience</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus reprehenderit consequuntur dolor modi ullam illum odio fugit, officia sint quaerat non! Facilis voluptatum et a placeat expedita odit, molestiae rem?
+        </div>
+
+        <div class="projects">
+            <h1 class="right-title">Projects</h1>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio iusto fugit voluptatum sit quidem aliquid deleniti sint quasi quod, quia, ratione, laudantium quisquam itaque labore asperiores molestiae animi doloremque atque.
+        </div>
+
+      </section>
+    </main>
+  </body>
+</html>
